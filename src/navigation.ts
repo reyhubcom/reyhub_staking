@@ -22,8 +22,8 @@ export const headerData = {
           href: getPermalink('/sol'),
         },
         {
-          text: 'Stake NEAR',
-          href: getPermalink('/near'),
+          text: 'All Chains',
+          href: getPermalink('/allchains'),
         },
       ],
     },
