@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: ReyHub.com
+  site: 'https://reyhub.com'
   base: '/'
   trailingSlash: false
 
@@ -9,14 +9,14 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: ReyHub.com
+    template: '%s — ReyHub'
+  description: "Crypto staking is a process of locking up or committing your cryptocurrency holdings to a blockchain network to help validate transactions and secure the network. For your participation, you can earn rewards, which is similar to earning interest in a traditional savings account."
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: ReyHub.com
     images:
       - url: '~/assets/images/default.png'
         width: 1200
@@ -69,4 +69,4 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'system' # Values: "system" | "dark" | "dark" | "dark:only" | "dark:only"
