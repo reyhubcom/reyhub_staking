@@ -32,7 +32,7 @@ export const headerData = {
       links: [
         {
           text: 'Hyperliquid',
-          href: getPermalink('/hyper'),
+          href: getPermalink('/hype'),
         },
         {
           text: 'Buy Crypto',
