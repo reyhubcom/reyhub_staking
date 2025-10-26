@@ -22,7 +22,7 @@ export const headerData = {
           href: getPermalink('/sol'),
         },
         {
-          text: 'All Chains',
+          text: 'All Blockchains',
           href: getPermalink('/allchains'),
         },
       ],
