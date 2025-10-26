@@ -28,11 +28,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'Wallets',
+      text: 'Protocols',
       links: [
         {
-          text: 'BTC Wallet ',
-          href: getPermalink('/wallet'),
+          text: 'Hyperliquid',
+          href: getPermalink('/hyper'),
         },
         {
           text: 'Buy Crypto',
