@@ -3,180 +3,160 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Staking',
       links: [
         {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
+          text: 'MEME Staking',
+          href: getPermalink('/meme'),
         },
         {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
+          text: 'Bitcoin Staking',
+          href: getPermalink('/btc'),
         },
         {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
+          text: 'Stake ETH',
+          href: getPermalink('/eth'),
         },
         {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
+          text: 'Stake SOL',
+          href: getPermalink('/sol'),
+        },
+        {
+          text: 'Stake NEAR',
+          href: getPermalink('/near'),
         },
       ],
     },
     {
-      text: 'Pages',
+      text: 'Wallets',
       links: [
         {
-          text: 'Features (Anchor Link)',
-          href: getPermalink('/#features'),
+          text: 'BTC Wallet ',
+          href: getPermalink('/wallet'),
         },
         {
-          text: 'Services',
-          href: getPermalink('/services'),
+          text: 'Buy Crypto',
+          href: getPermalink('/exchange'),
+        },
+        
+      ],
+    },
+    {
+      text: 'DeFi',
+      links: [
+        {
+          text: 'Earn With DeFi',
+          href: getPermalink('/defi'),
         },
         {
-          text: 'Pricing',
-          href: getPermalink('/pricing'),
+          text: 'Staking DAO',
+          href: getPermalink('/dao'),
         },
         {
-          text: 'About us',
-          href: getPermalink('/about'),
+          text: 'BOB Staking ',
+          href: getPermalink('/bob'),
         },
         {
-          text: 'Contact',
-          href: getPermalink('/contact'),
+          text: 'Blockchain FX',
+          href: getPermalink('/fx'),
+        },
+        
+      ],
+    },
+    {
+      text: 'Crypto',
+      links: [
+        {
+          text: 'Crypto Bubbles',
+          href: getPermalink( '/bubble'),
         },
         {
-          text: 'Terms',
-          href: getPermalink('/terms'),
+          text: 'Stablecoins',
+          href: getPermalink( '/stable'),
         },
         {
-          text: 'Privacy policy',
-          href: getPermalink('/privacy'),
+          text: 'Bridge Coins',
+          href: getPermalink('/bridge'),
+        },
+        {
+          text: 'Lite Lend',
+          href: getPermalink('/lite'),
+        },
+        {
+          text: 'All Protocol',
+          href: getPermalink('/allprotocol'),
         },
       ],
     },
     {
-      text: 'Landing',
-      links: [
-        {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
-        },
-        {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
-        },
-        {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
-        },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
-      ],
-    },
-    {
-      text: 'Blog',
-      links: [
-        {
-          text: 'Blog List',
-          href: getBlogPermalink(),
-        },
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
-      ],
-    },
-    {
-      text: 'Widgets',
-      href: '#',
+      text: 'Lending',
+      href: 'https://fluid.io/smart-lending/1' ,target: ' _blank',
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/arthelokyo/astrowind', target: '_blank' }],
+  actions: [{ text: 'EXCHANGE', href: '/exchange', target: '' }],
 };
 
 export const footerData = {
   links: [
     {
-      title: 'Product',
+      title: 'Networks',
       links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
+        { text: 'Ethereum', href: '/eth' },
+        { text: 'Solana', href: '/sol' },
+        { text: 'Binance', href: '/bnb' },
+        { text: 'AVAX', href: '/avax' },
+        { text: 'Polygon', href: '#' },
+        { text: 'Cosmos', href: '/atom' },
+        { text: 'All Networks', href: '/all' },
       ],
     },
     {
-      title: 'Platform',
+      title: 'MEME Coins',
       links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
+        { text: 'Staking BONKS', href: '/meme' },
+        { text: 'Staking PEPE', href: '/pepe' },
+        { text: 'Staking FLOKI', href: '/floki' },
+        { text: 'Staking Pepeto', href: '/meme' },
+        { text: 'Staking SHIBA INU', href: '/shiba' },
       ],
     },
     {
-      title: 'Support',
+      title: 'Labs',
       links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
+        { text: 'Blockberry', href: '#' },
+        { text: 'Suiscan', href: '#' },
+        { text: 'Minascan', href: '#' },
+        { text: 'Zekoscan', href: '#' },
+        { text: 'Starscan', href: '#' },
+        { text: 'Upscan', href: '#' },
       ],
     },
     {
-      title: 'Company',
+      title: 'About',
       links: [
-        { text: 'About', href: '#' },
+        { text: 'About Us', href: '#' },
         { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
+        { text: 'Docs', href: '#' },
         { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
+        { text: 'Brand Kit', href: '#' },
+        { text: 'Staking Reward', href: '#' },
+        { text: 'Rey Shop', href: 'https://linktr.ee/reystaking', target: ' _blank'},
+       
       ],
     },
   ],
   secondaryLinks: [
-    { text: 'Terms', href: getPermalink('/terms') },
-    { text: 'Privacy Policy', href: getPermalink('/privacy') },
+    { text: 'Terms', href: getPermalink('#') },
+    { text: 'Privacy Policy', href: getPermalink('#') },
   ],
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
-    { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/arthelokyo/astrowind' },
+    { ariaLabel: 'RSS', icon: 'tabler:rss', href: '#'},
+    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: '#' },
   ],
   footNote: `
-    Made by <a class="text-blue-600 underline dark:text-muted" href="https://github.com/arthelokyo"> Arthelokyo</a> · All rights reserved.
+    Made by <a class="text-blue-600 underline dark:text-muted" href="https://reyhub.com"> Rey</a> 2025 ReyHub.com All Rights Reserved.
   `,
 };
