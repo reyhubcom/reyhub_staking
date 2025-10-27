@@ -14,7 +14,7 @@ import Brands from '~/components/widgets/Brands.astro';
 import { YouTube } from 'astro-embed';
 
 const metadata = {
-  title: 'Bitcoin Staking',
+  title: 'Stacks Protocol',
 };
 ---
 
@@ -66,16 +66,16 @@ const metadata = {
     <Fragment slot="title">
        <span class="hidden sm:inline"></span>  <span
         class="text-accent dark:text-white"></span
-      > Bitcoin Staking
+      > Stacks Staking
     </Fragment>
 
     <Fragment slot="subtitle">
     <script defer src="https://www.livecoinwatch.com/static/lcw-widget.js"></script> <div class="livecoinwatch-widget-5" lcw-base="USD" lcw-color-tx="#0693e3" lcw-marquee-1="coins" lcw-marquee-2="movers" lcw-marquee-items="30" ></div>
 
- <!-- TradingView Widget BEGIN -->
+<!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
   <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/BTCUSD/?exchange=COINBASE" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"></span></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/symbols/STXUSD/?exchange=COINBASE" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a><span class="trademark"></span></div>
   <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
   {
   "lineWidth": 2,
@@ -85,7 +85,7 @@ const metadata = {
   "gridLineColor": "rgba(255, 255, 255, 0.06)",
   "volumeUpColor": "rgba(34, 171, 148, 0.5)",
   "volumeDownColor": "rgba(247, 82, 95, 0.5)",
-  "backgroundColor": "rgba(4, 4, 34, 1)",
+  "backgroundColor": "rgba(4, 4, 34, 0.06)",
   "widgetFontColor": "rgba(255, 255, 255, 1)",
   "upColor": "#22ab94",
   "downColor": "#f7525f",
@@ -94,7 +94,7 @@ const metadata = {
   "wickUpColor": "#22ab94",
   "wickDownColor": "#f7525f",
   "colorTheme": "dark",
-  "isTransparent": true,
+  "isTransparent": false,
   "locale": "en",
   "chartOnly": false,
   "scalePosition": "right",
@@ -104,7 +104,7 @@ const metadata = {
   "changeMode": "price-and-percent",
   "symbols": [
     [
-      "COINBASE:BTCUSD|1M"
+      "COINBASE:STXUSD|1M"
     ]
   ],
   "dateRanges": [
@@ -138,8 +138,8 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Stake Your Bitcoin, Earn Reward"
-    subtitle="Unleash your Bitcoin’s potential with Babylon and Stacks. Earn rewards through innovative staking solutions while maintaining the security of your BTC. Join the evolution of Bitcoin utility and start maximizing your holdings today."
+    title="What is Stack?"
+    subtitle="Stacks is a Bitcoin L2 solution built on top of Bitcoin, adding smart contract functionality while maintaining Bitcoin's decentralization. By anchoring its history on Bitcoin, the Bitcoin L2 solution ensures security and immutability."
   >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-blue-50 dark:bg-transparent"></div>
