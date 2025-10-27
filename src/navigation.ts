@@ -31,12 +31,12 @@ export const headerData = {
       text: 'Protocols',
       links: [
         {
-          text: 'Hyperliquid',
-          href: getPermalink('/hype'),
+          text: 'Stack',
+          href: getPermalink('/stack'),
         },
         {
-          text: 'Buy Crypto',
-          href: getPermalink('/exchange'),
+          text: 'Starknet',
+          href: getPermalink('/starknet'),
         },
         
       ],
