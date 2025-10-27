@@ -37,6 +37,14 @@ export const headerData = {
         {
           text: 'Starknet',
           href: getPermalink('/starknet'),
+          {
+          text: 'TON',
+          href: getPermalink('/ton'),
+        },
+          {
+          text: 'All Protocol',
+          href: getPermalink('/allprotocol'),
+        },
         },
         
       ],
