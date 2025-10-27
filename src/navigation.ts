@@ -31,7 +31,7 @@ export const headerData = {
       text: 'Protocols',
       links: [
         {
-          text: 'Stack',
+          text: 'Stacks',
           href: getPermalink('/stack'),
         },
         {
