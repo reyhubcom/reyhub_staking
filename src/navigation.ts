@@ -56,7 +56,7 @@ export const headerData = {
       text: 'DeFi',
       links: [
         {
-          text: 'Spark',
+          text: 'Sparks',
           href: getPermalink('/spark'),
         },
         {
