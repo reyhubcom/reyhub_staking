@@ -56,20 +56,23 @@ export const headerData = {
       text: 'DeFi',
       links: [
         {
-          text: 'Sparks',
-          href: getPermalink('/spark'),
+          text: 'Stacks',
+          href: getPermalink('/stack'),
         },
         {
           text: 'Starknet',
           href: getPermalink('/starknet'),
+         
         },
-        {
-          text: 'BOB Staking ',
-          href: getPermalink('/bob'),
+         {
+          text: 'TON',
+          href: getPermalink('/ton'),
+         
         },
-        {
-          text: 'Blockchain FX',
-          href: getPermalink('/fx'),
+          {
+          text: 'All Protocol',
+          href: getPermalink('/allprotocol'),
+         
         },
         
       ],
