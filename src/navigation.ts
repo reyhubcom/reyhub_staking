@@ -22,32 +22,21 @@ export const headerData = {
           href: getPermalink('/sol'),
         },
         {
-          text: 'All Blockchains',
-          href: getPermalink('/allchains'),
+          text: 'Stake NEAR',
+          href: getPermalink('/near'),
         },
       ],
     },
     {
-      text: 'Protocols',
+      text: 'Wallets',
       links: [
         {
-          text: 'Stacks',
-          href: getPermalink('/stack'),
+          text: 'BTC Wallet ',
+          href: getPermalink('/wallet'),
         },
         {
-          text: 'Starknet',
-          href: getPermalink('/starknet'),
-         
-        },
-         {
-          text: 'TON',
-          href: getPermalink('/ton'),
-         
-        },
-          {
-          text: 'All Protocol',
-          href: getPermalink('/allprotocol'),
-         
+          text: 'Buy Crypto',
+          href: getPermalink('/exchange'),
         },
         
       ],
@@ -56,23 +45,20 @@ export const headerData = {
       text: 'DeFi',
       links: [
         {
-          text: 'Stacks',
-          href: getPermalink('/stack'),
+          text: 'Earn With DeFi',
+          href: getPermalink('/defi'),
         },
         {
-          text: 'Starknet',
-          href: getPermalink('/starknet'),
-         
+          text: 'Staking DAO',
+          href: getPermalink('/dao'),
         },
-         {
-          text: 'TON',
-          href: getPermalink('/ton'),
-         
+        {
+          text: 'BOB Staking ',
+          href: getPermalink('/bob'),
         },
-          {
-          text: 'All Protocol',
-          href: getPermalink('/allprotocol'),
-         
+        {
+          text: 'Blockchain FX',
+          href: getPermalink('/fx'),
         },
         
       ],
