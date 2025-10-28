@@ -60,8 +60,8 @@ export const headerData = {
           href: getPermalink('/defi'),
         },
         {
-          text: 'Staking DAO',
-          href: getPermalink('/dao'),
+          text: 'Starknet',
+          href: getPermalink('/starknet'),
         },
         {
           text: 'BOB Staking ',
