@@ -56,8 +56,8 @@ export const headerData = {
       text: 'DeFi',
       links: [
         {
-          text: 'Earn With DeFi',
-          href: getPermalink('/defi'),
+          text: 'Spark',
+          href: getPermalink('/spark'),
         },
         {
           text: 'Starknet',
